@@ -7,4 +7,5 @@ commonLabels:
   env: prod
 
 patches:
-  - replica-count.yaml
+  - replicas.yaml
+  - services.yaml

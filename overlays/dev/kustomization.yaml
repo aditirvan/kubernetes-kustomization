@@ -7,4 +7,5 @@ commonLabels:
   env: dev
 
 patches:
-  - replica-count.yaml
+  - replicas.yaml
+  - services.yaml

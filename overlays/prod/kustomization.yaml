@@ -1,0 +1,10 @@
+bases:
+  - ../../base
+
+nameSuffix: -production
+
+commonLabels:
+  env: prod
+
+patches:
+  - replica-count.yaml
